@@ -13,13 +13,13 @@ public class Game {
 	public static void main(String[] args) {
 		SoccerData soccerData = new SoccerData();
 		
+		new ElapsedTimeDisplay(soccerData);
+		soccerData.measurementsChanged();
+		
 		new CurrentGoalDisplay(soccerData);
 		soccerData.measurementsChanged();
 		
 		new GameStatisticsDisplay(soccerData);
-		soccerData.measurementsChanged();
-		
-		new ElapsedTimeDisplay(soccerData);
 		soccerData.measurementsChanged();
 	}
 
