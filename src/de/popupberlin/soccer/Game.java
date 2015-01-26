@@ -6,7 +6,7 @@ import de.popupberlin.soccer.display.GameStatisticsDisplay;
 
 /**
  * @author Wojarski
- * Game class containing example game 
+ * Game class containing example game scenario. 
  */
 public class Game {
 
